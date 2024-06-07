@@ -3,7 +3,7 @@ workers_dev = true
 main = "src/index.js"
 compatibility_date = "2021-12-07"
 routes = [
-   { pattern = "docker.mydomain.com", custom_domain = true },
+    { pattern = "docker.mydomain.com", custom_domain = true },
     { pattern = "quay.mydomain.com", custom_domain = true },
     { pattern = "gcr.mydomain.com", custom_domain = true },
     { pattern = "k8s-gcr.mydomain.com", custom_domain = true },
